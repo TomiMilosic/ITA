@@ -15,6 +15,8 @@ V tej veji "microservices" bodo 3 storitve:
 
 Vsaka storitev ima 3 funkcionalne in 3 ne fukncionalne zahteve:
 
+https://stackoverflow.com/questions/34367031/functional-and-non-functional-requirements-relating-to-web-api 
+
 ## REST API za nakup E-vinjete:
 
 Funkcionalne:
