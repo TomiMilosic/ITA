@@ -10,49 +10,51 @@ V tej veji "microservices" bodo 3 storitve:
 
 
 
-![image](https://user-images.githubusercontent.com/67262025/158027025-57be1cb7-2b19-4686-a130-83ece654bd08.png)
-
-
 Vsaka storitev ima 3 funkcionalne in 3 ne fukncionalne zahteve:
 
-https://stackoverflow.com/questions/34367031/functional-and-non-functional-requirements-relating-to-web-api 
 
 ## REST API za nakup E-vinjete:
 
+![image](https://user-images.githubusercontent.com/67262025/158027025-57be1cb7-2b19-4686-a130-83ece654bd08.png)
+
 Funkcionalne:
-- Vsaka vinjeta pri nakupu 
-- yyolo 
-- tretje
+- Vpisovanje podatkov
+- Izbira tipa e-vinjete
+- Status izvedbe naročila
 
 Ne funkcionalne:
 
-- neke
-- yyolo 
-- tretj
+- Validacija podatkov v majn kot 10s
+- Izbira tipa e-vinjete glede na cestninski razred in trajanje vinjete
+- Naročilo se izvede v majn kot 30s
 
 ## gRPC storitev za uporabnike:
 
+![image](https://user-images.githubusercontent.com/67262025/158068812-557d9724-cbbe-4502-b3d8-97ddfc2f3f87.png)
+
 Funkcionalne:
-- neke
-- yyolo 
-- tretje
+- Obdelava zahteva za prijavo
+- Seja uporanika
+- Preverjanje kupljenih vinjet
 
 Ne funkcionalne:
 
-- neke
-- yyolo 
-- tretj
+- Da se pripravi povratni email v 30s
+- Seja poteče v 1uri
+- V primeru, da uporabnik ima že kupljeno vinjeto se izpiše opozorilo
 
 ## REST API storitev za preverjanje E-Vinjet:
+![image](https://user-images.githubusercontent.com/67262025/158068789-c747d9fc-713b-475c-8b72-4b1b9322ebfc.png)
+
 
 Funkcionalne:
-- neke
-- yyolo 
-- tretje
+- Preverjanje registrerske številke
+- Priprava sporočila
+- Pošiljanje sporočila
 
 Ne funkcionalne:
 
-- neke
-- yyolo 
-- tretj
+- Preverjanje se izvede v 60s
+- Priprava sporočila za opomin neobstajanje/neveljavnost registerske številke v 60s
+- Sporočila se pošljejo v 60s
 
