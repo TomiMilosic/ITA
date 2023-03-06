@@ -7,7 +7,7 @@ Razvili bomo elektronsko plačevanje parkinine. Sistem bo implementiran s pomoč
 Pri tem sistemu bo možno plačevati parkinino, opominjati uporabnine, registracija, brisanje računa ipd. Na spodnjem diagramu je razvidno kako je zasnovana aplikacija.
 
 
-![image](https://user-images.githubusercontent.com/67262025/158026402-acfbf4b0-6038-4ff2-ab41-10a70b8dce91.png)
+![image](https://user-images.githubusercontent.com/67262025/223224323-0bb42416-e485-4e6b-9903-b9ae228b0d8d.png)
 
 ## Namen reposatorija: 
 
