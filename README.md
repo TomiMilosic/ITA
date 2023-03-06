@@ -1,5 +1,5 @@
 # ITA
-Projekt E-Vinjeta
+Projekt EasyPark 2.0
 
 
 ## Veje:
