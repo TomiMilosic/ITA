@@ -10,12 +10,13 @@ V tej veji "microservices" bodo 3 storitve:
 
 
 
+
 Vsaka storitev ima 3 funkcionalne in 3 ne fukncionalne zahteve:
 
 
 ## REST API za zakup parkinega mesta:
 
-![image](https://user-images.githubusercontent.com/67262025/158027025-57be1cb7-2b19-4686-a130-83ece654bd08.png)
+![image](https://user-images.githubusercontent.com/67262025/223224323-0bb42416-e485-4e6b-9903-b9ae228b0d8d.png)
 
 Funkcionalne:
 - Vpisovanje podatkov
