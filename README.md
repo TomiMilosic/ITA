@@ -36,7 +36,7 @@ Ne funkcionalne:
 Funkcionalne:
 - Obdelava zahteva za prijavo
 - Seja uporanika
-- Preverjanje registrkse številke
+- Preverjanje registrske številke
 
 Ne funkcionalne:
 
